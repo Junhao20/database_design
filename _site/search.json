@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "lecture2.html",
+    "href": "lecture2.html",
+    "title": "sql_notes",
+    "section": "",
+    "text": "Conceptual design:\n\nEntity relatinoship model (ER model) is typically a conceptual design\nEntities/attributes/relationships/constraints"
+  },
+  {
+    "objectID": "lecture2.html#database-design",
+    "href": "lecture2.html#database-design",
+    "title": "sql_notes",
+    "section": "",
+    "text": "Conceptual design:\n\nEntity relatinoship model (ER model) is typically a conceptual design\nEntities/attributes/relationships/constraints"
   }
 ]

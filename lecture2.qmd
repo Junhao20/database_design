@@ -1,0 +1,6 @@
+## Database Design 
+
+- Conceptual design:
+  - Entity relatinoship model (ER model) is typically a conceptual design
+  - Entities/attributes/relationships/constraints
+
