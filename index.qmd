@@ -1,11 +1,11 @@
 ---
-title: "sql_notes"
+title: "Database design"
 ---
 
-This is a Quarto website.
+## This is a note for SQL and Data base design class
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### Example code chunk
 
-```{r}
-1 + 1
+```
+select
 ```

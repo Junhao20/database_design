@@ -1,6 +1,26 @@
 ## Database Design 
 
+### Definitions
 - Conceptual design:
   - Entity relatinoship model (ER model) is typically a conceptual design
   - Entities/attributes/relationships/constraints
 
+- Definition 1, candidate key or a key of an entity set if it is both
+  - Unique
+  - Minimal: cannot delete any of the attribute without impariring 1
+    - ID
+    - email
+    - name
+    - dept_name
+  
+- Definition: Superkeys --> Further 
+
+- Keys: 
+  - Primary Key --> Unique
+  - Example: ID of instructors/students --> uniqueness of information (underlined)
+
+
+### Exmaple plot: (plots to be add)
+
+
+  

@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "sql_notes"
+  title: "DB Design"
   navbar:
     left:
       - href: index.qmd

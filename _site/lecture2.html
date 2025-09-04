@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>sql_notes – lecture2</title>
+<title>DB Design – lecture2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">sql_notes</span>
+    <span class="navbar-title">DB Design</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -108,7 +108,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#database-design" id="toc-database-design" class="nav-link active" data-scroll-target="#database-design">Database Design</a></li>
+  <li><a href="#database-design" id="toc-database-design" class="nav-link active" data-scroll-target="#database-design">Database Design</a>
+  <ul class="collapse">
+  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a></li>
+  <li><a href="#exmaple-plot-plots-to-be-add" id="toc-exmaple-plot-plots-to-be-add" class="nav-link" data-scroll-target="#exmaple-plot-plots-to-be-add">Exmaple plot: (plots to be add)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -119,15 +123,38 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="database-design" class="level2">
 <h2 class="anchored" data-anchor-id="database-design">Database Design</h2>
+<section id="definitions" class="level3">
+<h3 class="anchored" data-anchor-id="definitions">Definitions</h3>
 <ul>
-<li>Conceptual design:
+<li><p>Conceptual design:</p>
 <ul>
 <li>Entity relatinoship model (ER model) is typically a conceptual design</li>
 <li>Entities/attributes/relationships/constraints</li>
 </ul></li>
+<li><p>Definition 1, candidate key or a key of an entity set if it is both</p>
+<ul>
+<li>Unique</li>
+<li>Minimal: cannot delete any of the attribute without impariring 1
+<ul>
+<li>ID</li>
+<li>email</li>
+<li>name</li>
+<li>dept_name</li>
+</ul></li>
+</ul></li>
+<li><p>Definition: Superkeys –&gt; Further</p></li>
+<li><p>Keys:</p>
+<ul>
+<li>Primary Key –&gt; Unique</li>
+<li>Example: ID of instructors/students –&gt; uniqueness of information (underlined)</li>
+</ul></li>
 </ul>
+</section>
+<section id="exmaple-plot-plots-to-be-add" class="level3">
+<h3 class="anchored" data-anchor-id="exmaple-plot-plots-to-be-add">Exmaple plot: (plots to be add)</h3>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

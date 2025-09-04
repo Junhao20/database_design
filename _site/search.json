@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "sql_notes",
+    "title": "Database design",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "select"
   },
   {
     "objectID": "about.html",
@@ -16,15 +16,22 @@
   {
     "objectID": "lecture2.html",
     "href": "lecture2.html",
-    "title": "sql_notes",
+    "title": "DB Design",
     "section": "",
-    "text": "Conceptual design:\n\nEntity relatinoship model (ER model) is typically a conceptual design\nEntities/attributes/relationships/constraints"
+    "text": "Conceptual design:\n\nEntity relatinoship model (ER model) is typically a conceptual design\nEntities/attributes/relationships/constraints\n\nDefinition 1, candidate key or a key of an entity set if it is both\n\nUnique\nMinimal: cannot delete any of the attribute without impariring 1\n\nID\nemail\nname\ndept_name\n\n\nDefinition: Superkeys –&gt; Further\nKeys:\n\nPrimary Key –&gt; Unique\nExample: ID of instructors/students –&gt; uniqueness of information (underlined)"
   },
   {
     "objectID": "lecture2.html#database-design",
     "href": "lecture2.html#database-design",
-    "title": "sql_notes",
+    "title": "DB Design",
     "section": "",
-    "text": "Conceptual design:\n\nEntity relatinoship model (ER model) is typically a conceptual design\nEntities/attributes/relationships/constraints"
+    "text": "Conceptual design:\n\nEntity relatinoship model (ER model) is typically a conceptual design\nEntities/attributes/relationships/constraints\n\nDefinition 1, candidate key or a key of an entity set if it is both\n\nUnique\nMinimal: cannot delete any of the attribute without impariring 1\n\nID\nemail\nname\ndept_name\n\n\nDefinition: Superkeys –&gt; Further\nKeys:\n\nPrimary Key –&gt; Unique\nExample: ID of instructors/students –&gt; uniqueness of information (underlined)"
+  },
+  {
+    "objectID": "index.html#this-is-a-note-for-sql-and-data-base-design-class",
+    "href": "index.html#this-is-a-note-for-sql-and-data-base-design-class",
+    "title": "Database design",
+    "section": "",
+    "text": "select"
   }
 ]
